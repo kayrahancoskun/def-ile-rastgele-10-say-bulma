@@ -1,2 +1,8 @@
-# def-ile-rastgele-10-say-bulma
-def fonksiyonunu kullanarak rastgele 10 sayı bulma
+# def-ile-rastgele-10-say-bulmaimport random
+def sayı10():
+    for x in range(10):
+      sayılar=random.randint(100,200)
+      print(sayılar)
+sayı10()
+        
+ 
